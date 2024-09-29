@@ -1,0 +1,6 @@
+/home/chen/华南虎视觉/考核项目/装甲板识别/build/CMakeFiles/test.dir
+/home/chen/华南虎视觉/考核项目/装甲板识别/build/CMakeFiles/edit_cache.dir
+/home/chen/华南虎视觉/考核项目/装甲板识别/build/CMakeFiles/rebuild_cache.dir
+/home/chen/华南虎视觉/考核项目/装甲板识别/build/recognition/CMakeFiles/recognition.dir
+/home/chen/华南虎视觉/考核项目/装甲板识别/build/recognition/CMakeFiles/edit_cache.dir
+/home/chen/华南虎视觉/考核项目/装甲板识别/build/recognition/CMakeFiles/rebuild_cache.dir

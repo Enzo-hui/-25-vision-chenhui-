@@ -1,0 +1,5 @@
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_library(recognition src/recognition.cpp)
+target_include_directories(recognition PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_link_libraries(recognition ${OpenCV_LIBS})
