@@ -355,4 +355,7 @@ CMakeFiles/test.dir/main.cpp.o: \
  /usr/local/include/opencv4/opencv2/video.hpp \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
- /home/chen/华南虎视觉/考核项目/装甲板识别/recognition/include/recognition.h
+ /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/include/Armor.h \
+ /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h \
+ /usr/include/c++/11/condition_variable /usr/include/c++/11/atomic

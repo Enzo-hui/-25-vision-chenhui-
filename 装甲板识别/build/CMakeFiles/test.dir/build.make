@@ -92,7 +92,7 @@ test_EXTERNAL_OBJECTS =
 
 test: CMakeFiles/test.dir/main.cpp.o
 test: CMakeFiles/test.dir/build.make
-test: recognition/librecognition.a
+test: Armor/libArmor.a
 test: /usr/local/lib/libopencv_gapi.so.4.7.0
 test: /usr/local/lib/libopencv_highgui.so.4.7.0
 test: /usr/local/lib/libopencv_ml.so.4.7.0

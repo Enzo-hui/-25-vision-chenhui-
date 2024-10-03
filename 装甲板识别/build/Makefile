@@ -130,17 +130,17 @@ test/fast:
 .PHONY : test/fast
 
 #=============================================================================
-# Target rules for targets named recognition
+# Target rules for targets named Armor
 
 # Build rule for target.
-recognition: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recognition
-.PHONY : recognition
+Armor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Armor
+.PHONY : Armor
 
 # fast build rule for target.
-recognition/fast:
-	$(MAKE) $(MAKESILENT) -f recognition/CMakeFiles/recognition.dir/build.make recognition/CMakeFiles/recognition.dir/build
-.PHONY : recognition/fast
+Armor/fast:
+	$(MAKE) $(MAKESILENT) -f Armor/CMakeFiles/Armor.dir/build.make Armor/CMakeFiles/Armor.dir/build
+.PHONY : Armor/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -174,7 +174,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... recognition"
+	@echo "... Armor"
 	@echo "... test"
 	@echo "... main.o"
 	@echo "... main.i"

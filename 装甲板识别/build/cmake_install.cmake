@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chen/华南虎视觉/考核项目/装甲板识别/build/recognition/cmake_install.cmake")
+  include("/home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor/cmake_install.cmake")
 
 endif()
 

@@ -1,12 +1,32 @@
 [
 {
   "directory": "/home/chen/华南虎视觉/考核项目/装甲板识别/build",
-  "command": "/usr/bin/c++  -I/home/chen/华南虎视觉/考核项目/装甲板识别/recognition/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/test.dir/main.cpp.o -c /home/chen/华南虎视觉/考核项目/装甲板识别/main.cpp",
+  "command": "/usr/bin/c++  -I/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/test.dir/main.cpp.o -c /home/chen/华南虎视觉/考核项目/装甲板识别/main.cpp",
   "file": "/home/chen/华南虎视觉/考核项目/装甲板识别/main.cpp"
 },
 {
-  "directory": "/home/chen/华南虎视觉/考核项目/装甲板识别/build/recognition",
-  "command": "/usr/bin/c++  -I/home/chen/华南虎视觉/考核项目/装甲板识别/recognition/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/recognition.dir/src/recognition.cpp.o -c /home/chen/华南虎视觉/考核项目/装甲板识别/recognition/src/recognition.cpp",
-  "file": "/home/chen/华南虎视觉/考核项目/装甲板识别/recognition/src/recognition.cpp"
+  "directory": "/home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor",
+  "command": "/usr/bin/c++  -I/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/Armor.dir/src/Armor.cpp.o -c /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/Armor.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/Armor.cpp"
+},
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor",
+  "command": "/usr/bin/c++  -I/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/Armor.dir/src/ArmorMatch.cpp.o -c /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/ArmorMatch.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/ArmorMatch.cpp"
+},
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor",
+  "command": "/usr/bin/c++  -I/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/Armor.dir/src/LightBar.cpp.o -c /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/LightBar.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/LightBar.cpp"
+},
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor",
+  "command": "/usr/bin/c++  -I/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/Armor.dir/src/distance.cpp.o -c /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/distance.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/distance.cpp"
+},
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor",
+  "command": "/usr/bin/c++  -I/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/Armor.dir/src/recognition.cpp.o -c /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/recognition.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/recognition.cpp"
 }
 ]

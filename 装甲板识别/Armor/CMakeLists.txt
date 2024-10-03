@@ -1,0 +1,6 @@
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+aux_source_directory(src lib_dir)
+add_library(Armor ${lib_dir})
+target_include_directories(Armor PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_link_libraries(Armor ${OpenCV_LIBS})
