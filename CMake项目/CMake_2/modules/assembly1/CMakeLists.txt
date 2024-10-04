@@ -1,0 +1,7 @@
+add_library(assembly1 src/assembly1.cpp)
+target_include_directories(assembly1 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+if(BUILD_TESTS=ON)
+add_executable(ctest test/assembly1_test.cpp)
+target_link_libraries(ctest assembly1 assembly2)
+target_include_directories(ctest PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+endif()

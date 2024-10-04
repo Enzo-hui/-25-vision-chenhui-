@@ -1,0 +1,5 @@
+find_package(Threads REQUIRED)
+aux_source_directory(src module_2)
+add_library(module2 INTERFACE ${module_2})
+target_include_directories(module2  INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_link_libraries(module2 INTERFACE Threads::Threads)
