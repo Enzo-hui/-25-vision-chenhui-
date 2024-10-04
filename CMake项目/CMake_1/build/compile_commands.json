@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build",
+  "command": "/usr/bin/g++  -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common/kalman/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/M1/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A1/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/M2/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A2/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common/math/include -isystem /usr/local/include/opencv4 -g -std=gnu++20 -o CMakeFiles/test.dir/main.cpp.o -c /home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/main.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/main.cpp"
+},
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/common/math",
+  "command": "/usr/bin/g++  -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common/kalman/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common/math/include -isystem /usr/local/include/opencv4 -g -std=gnu++20 -o CMakeFiles/Math.dir/src/Math.cpp.o -c /home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common/math/src/Math.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common/math/src/Math.cpp"
+},
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/modules/A1",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common/kalman/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A1/include -g -std=gnu++20 -o CMakeFiles/A1.dir/src/A11.cpp.o -c /home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A1/src/A11.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A1/src/A11.cpp"
+},
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/modules/A1",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common/kalman/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A1/include -g -std=gnu++20 -o CMakeFiles/A1.dir/src/A12.cpp.o -c /home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A1/src/A12.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A1/src/A12.cpp"
+},
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/modules/A1",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common/kalman/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A1/include -g -std=gnu++20 -o CMakeFiles/A1.dir/src/A13.cpp.o -c /home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A1/src/A13.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A1/src/A13.cpp"
+},
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/modules/A2",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common/kalman/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A2/include -g -std=gnu++20 -o CMakeFiles/A2.dir/src/A2.cpp.o -c /home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A2/src/A2.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A2/src/A2.cpp"
+},
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/modules/M1",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common/kalman/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/M1/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A1/include -g -std=gnu++20 -o CMakeFiles/M1.dir/src/M1.cpp.o -c /home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/M1/src/M1.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/M1/src/M1.cpp"
+},
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/modules/M2",
+  "command": "/usr/bin/g++  -I/usr/local/include/opencv4 -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common/kalman/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/M2/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A1/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A2/include -g -std=gnu++20 -o CMakeFiles/M2.dir/src/M2.cpp.o -c /home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/M2/src/M2.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/M2/src/M2.cpp"
+}
+]
