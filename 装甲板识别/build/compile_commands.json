@@ -26,6 +26,11 @@
 },
 {
   "directory": "/home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor",
+  "command": "/usr/bin/c++  -I/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/Armor.dir/src/draw.cpp.o -c /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/draw.cpp",
+  "file": "/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/draw.cpp"
+},
+{
+  "directory": "/home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor",
   "command": "/usr/bin/c++  -I/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/Armor.dir/src/recognition.cpp.o -c /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/recognition.cpp",
   "file": "/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/recognition.cpp"
 }

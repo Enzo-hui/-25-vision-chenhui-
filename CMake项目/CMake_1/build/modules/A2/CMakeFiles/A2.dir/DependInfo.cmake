@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules/A2/src/A2.cpp" "modules/A2/CMakeFiles/A2.dir/src/A2.cpp.o" "gcc" "modules/A2/CMakeFiles/A2.dir/src/A2.cpp.o.d"
+  "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_1/modules/A2/src/A2.cpp" "modules/A2/CMakeFiles/A2.dir/src/A2.cpp.o" "gcc" "modules/A2/CMakeFiles/A2.dir/src/A2.cpp.o.d"
   )
 
 # Targets to which this target links.

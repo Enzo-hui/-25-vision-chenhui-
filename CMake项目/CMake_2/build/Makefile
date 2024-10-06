@@ -57,13 +57,23 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II
+CMAKE_SOURCE_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build
+CMAKE_BINARY_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -87,9 +97,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/CMakeFiles /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/CMakeFiles /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -156,6 +166,19 @@ assembly1/fast:
 .PHONY : assembly1/fast
 
 #=============================================================================
+# Target rules for targets named assembly1_test
+
+# Build rule for target.
+assembly1_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assembly1_test
+.PHONY : assembly1_test
+
+# fast build rule for target.
+assembly1_test/fast:
+	$(MAKE) $(MAKESILENT) -f modules/assembly1/CMakeFiles/assembly1_test.dir/build.make modules/assembly1/CMakeFiles/assembly1_test.dir/build
+.PHONY : assembly1_test/fast
+
+#=============================================================================
 # Target rules for targets named assembly2
 
 # Build rule for target.
@@ -206,6 +229,19 @@ rmath: cmake_check_build_system
 rmath/fast:
 	$(MAKE) $(MAKESILENT) -f common/rmath/CMakeFiles/rmath.dir/build.make common/rmath/CMakeFiles/rmath.dir/build
 .PHONY : rmath/fast
+
+#=============================================================================
+# Target rules for targets named singleton
+
+# Build rule for target.
+singleton: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 singleton
+.PHONY : singleton
+
+# fast build rule for target.
+singleton/fast:
+	$(MAKE) $(MAKESILENT) -f common/singleton/CMakeFiles/singleton.dir/build.make common/singleton/CMakeFiles/singleton.dir/build
+.PHONY : singleton/fast
 
 client.o: client.cpp.o
 .PHONY : client.o
@@ -263,13 +299,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
 	@echo "... assembly1"
+	@echo "... assembly1_test"
 	@echo "... assembly2"
 	@echo "... client"
 	@echo "... module1"
 	@echo "... module2"
 	@echo "... rmath"
 	@echo "... server"
+	@echo "... singleton"
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"

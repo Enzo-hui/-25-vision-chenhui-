@@ -22,22 +22,17 @@ add_subdirectory(common)
 # # # # 以上内容禁止修改 # # # #
 
 
-
-option(WITH_A "Define WITH_A" ON)
-option(WITH_B "Define WITH_B" OFF)
-
-if(WITH_A)
+if(BUILD_A)
     add_definitions(-DWITH_A)
 endif()
 
-if(WITH_B)
+if(BUILD_B)
     add_definitions(-DWITH_B)
 endif()
 add_executable(server server.cpp)
 add_executable(client client.cpp)
 
-target_link_libraries(server PUBLIC rmath assembly1 module2 module1 ${singleton_INCLUDE_DIRS})
+target_link_libraries(server PUBLIC rmath assembly1 module2 module1 singleton)
 target_link_libraries(client PUBLIC module2 module1)
 
-target_compile_definitions(server PUBLIC WITH_A)
-target_compile_definitions(server PUBLIC WITH_B)
+# target_compile_definitions(server PUBLIC WITH_A)

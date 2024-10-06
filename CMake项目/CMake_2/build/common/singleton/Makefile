@@ -57,13 +57,23 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II
+CMAKE_SOURCE_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build
+CMAKE_BINARY_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -87,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/CMakeFiles /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/common/singleton//CMakeFiles/progress.marks
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/singleton/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/CMakeFiles 0
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/CMakeFiles /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/common/singleton//CMakeFiles/progress.marks
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/singleton/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/singleton/clean
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/singleton/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,17 +113,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/singleton/preinstall
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/singleton/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/singleton/preinstall
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/singleton/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -124,6 +134,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... singleton"
 .PHONY : help
 
 
@@ -135,6 +147,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

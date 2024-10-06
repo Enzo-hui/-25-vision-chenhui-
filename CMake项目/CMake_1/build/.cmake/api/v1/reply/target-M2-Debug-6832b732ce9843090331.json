@@ -1,0 +1,147 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "modules/M2/libM2.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"modules/M2/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/usr/local/include/opencv4"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chen/\u534e\u5357\u864e\u89c6\u89c9/\u8003\u6838\u9879\u76ee/CMake\u9879\u76ee/CMake_1/modules/M2/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chen/\u534e\u5357\u864e\u89c6\u89c9/\u8003\u6838\u9879\u76ee/CMake\u9879\u76ee/CMake_1/common/kalman/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chen/\u534e\u5357\u864e\u89c6\u89c9/\u8003\u6838\u9879\u76ee/CMake\u9879\u76ee/CMake_1/modules/A1/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chen/\u534e\u5357\u864e\u89c6\u89c9/\u8003\u6838\u9879\u76ee/CMake\u9879\u76ee/CMake_1/modules/A2/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "A1::@b0f06a87b7e4ceb423cf"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "A2::@c75ad1cf0a86a68e3187"
+		}
+	],
+	"id" : "M2::@72f35889cfb8d56ac320",
+	"name" : "M2",
+	"nameOnDisk" : "libM2.a",
+	"paths" : 
+	{
+		"build" : "modules/M2",
+		"source" : "modules/M2"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/M2/src/M2.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

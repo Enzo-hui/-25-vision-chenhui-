@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II
+CMAKE_SOURCE_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build
+CMAKE_BINARY_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build
 
 # Utility rule file for singleton.
 
@@ -74,10 +74,10 @@ common/singleton/CMakeFiles/singleton.dir/build: singleton
 .PHONY : common/singleton/CMakeFiles/singleton.dir/build
 
 common/singleton/CMakeFiles/singleton.dir/clean:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/common/singleton && $(CMAKE_COMMAND) -P CMakeFiles/singleton.dir/cmake_clean.cmake
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/common/singleton && $(CMAKE_COMMAND) -P CMakeFiles/singleton.dir/cmake_clean.cmake
 .PHONY : common/singleton/CMakeFiles/singleton.dir/clean
 
 common/singleton/CMakeFiles/singleton.dir/depend:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/common/singleton /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/common/singleton /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/common/singleton/CMakeFiles/singleton.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2 /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/common/singleton /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/common/singleton /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/common/singleton/CMakeFiles/singleton.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : common/singleton/CMakeFiles/singleton.dir/depend
 

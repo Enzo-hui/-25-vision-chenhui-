@@ -4,24 +4,42 @@ using namespace std;
 
 void deleteErrorArmor(vector<Armor> &armors);
 
+// 匹配装甲板
 void matchArmors()
 {
-    for (int i = 0; i < lights.size() - 1; i++)
+    int num1 = 0;
+    // 将灯条和每一个其他灯条进行配对
+    for (auto light : lights)
     {
-        for (int j = i + 1; j < lights.size(); j++)
+        int num2 = 0;
+
+        for (auto light : lights)
         {
-            Armor armor = Armor(lights[i], lights[j]);
-            if (armor.isSuitableArmor())
+
+            if (num2 = 0)
             {
-                armor.l_index = i;
-                armor.r_index = j;
-                armors.emplace_back(armor);
+                continue;
             }
+        
+            Armor armor = Armor(lights[num1], lights[num2]);
+            if (armor.isSuitableArmor()) // 判断装甲板是否合适
+            {
+                armor.l_index = num1;
+                armor.r_index = num2;
+                armors.emplace_back(armor);
+                break;
+            }
+            num2++;
         }
-        deleteErrorArmor(armors);
+
+      
+        num1++;
+        deleteErrorArmor(armors); // 删除错误装甲板
     }
 }
 
+
+// 删除错误的装甲板
 void deleteErrorArmor(vector<Armor> &aromrs)
 {
     int length = armors.size();
@@ -41,10 +59,3 @@ void deleteErrorArmor(vector<Armor> &aromrs)
     }
 }
 
-// //两点间的距离
-// float getPointsDistance(const Point2f& a, const Point2f& b) 
-// {
-// 	float delta_x = a.x - b.x;
-// 	float delta_y = a.y - b.y;
-// 	return sqrt(delta_x * delta_x + delta_y * delta_y);
-// }

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/ArmorMatch.cpp" "Armor/CMakeFiles/Armor.dir/src/ArmorMatch.cpp.o" "gcc" "Armor/CMakeFiles/Armor.dir/src/ArmorMatch.cpp.o.d"
   "/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/LightBar.cpp" "Armor/CMakeFiles/Armor.dir/src/LightBar.cpp.o" "gcc" "Armor/CMakeFiles/Armor.dir/src/LightBar.cpp.o.d"
   "/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/distance.cpp" "Armor/CMakeFiles/Armor.dir/src/distance.cpp.o" "gcc" "Armor/CMakeFiles/Armor.dir/src/distance.cpp.o.d"
+  "/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/draw.cpp" "Armor/CMakeFiles/Armor.dir/src/draw.cpp.o" "gcc" "Armor/CMakeFiles/Armor.dir/src/draw.cpp.o.d"
   "/home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/recognition.cpp" "Armor/CMakeFiles/Armor.dir/src/recognition.cpp.o" "gcc" "Armor/CMakeFiles/Armor.dir/src/recognition.cpp.o.d"
   )
 

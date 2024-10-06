@@ -57,13 +57,23 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II
+CMAKE_SOURCE_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build
+CMAKE_BINARY_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -87,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/CMakeFiles /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/modules/module2//CMakeFiles/progress.marks
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/CMakeFiles 0
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/CMakeFiles /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/modules/module2//CMakeFiles/progress.marks
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module2/clean
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module2/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,18 +113,176 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module2/preinstall
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module2/preinstall
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+modules/module2/CMakeFiles/module2.dir/rule:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module2/CMakeFiles/module2.dir/rule
+.PHONY : modules/module2/CMakeFiles/module2.dir/rule
+
+# Convenience name for target.
+module2: modules/module2/CMakeFiles/module2.dir/rule
+.PHONY : module2
+
+# fast build rule for target.
+module2/fast:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/build
+.PHONY : module2/fast
+
+src/argument.o: src/argument.cpp.o
+.PHONY : src/argument.o
+
+# target to build an object file
+src/argument.cpp.o:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/argument.cpp.o
+.PHONY : src/argument.cpp.o
+
+src/argument.i: src/argument.cpp.i
+.PHONY : src/argument.i
+
+# target to preprocess a source file
+src/argument.cpp.i:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/argument.cpp.i
+.PHONY : src/argument.cpp.i
+
+src/argument.s: src/argument.cpp.s
+.PHONY : src/argument.s
+
+# target to generate assembly for a file
+src/argument.cpp.s:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/argument.cpp.s
+.PHONY : src/argument.cpp.s
+
+src/client.o: src/client.cpp.o
+.PHONY : src/client.o
+
+# target to build an object file
+src/client.cpp.o:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/client.cpp.o
+.PHONY : src/client.cpp.o
+
+src/client.i: src/client.cpp.i
+.PHONY : src/client.i
+
+# target to preprocess a source file
+src/client.cpp.i:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/client.cpp.i
+.PHONY : src/client.cpp.i
+
+src/client.s: src/client.cpp.s
+.PHONY : src/client.s
+
+# target to generate assembly for a file
+src/client.cpp.s:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/client.cpp.s
+.PHONY : src/client.cpp.s
+
+src/object.o: src/object.cpp.o
+.PHONY : src/object.o
+
+# target to build an object file
+src/object.cpp.o:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/object.cpp.o
+.PHONY : src/object.cpp.o
+
+src/object.i: src/object.cpp.i
+.PHONY : src/object.i
+
+# target to preprocess a source file
+src/object.cpp.i:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/object.cpp.i
+.PHONY : src/object.cpp.i
+
+src/object.s: src/object.cpp.s
+.PHONY : src/object.s
+
+# target to generate assembly for a file
+src/object.cpp.s:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/object.cpp.s
+.PHONY : src/object.cpp.s
+
+src/open62541.o: src/open62541.c.o
+.PHONY : src/open62541.o
+
+# target to build an object file
+src/open62541.c.o:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/open62541.c.o
+.PHONY : src/open62541.c.o
+
+src/open62541.i: src/open62541.c.i
+.PHONY : src/open62541.i
+
+# target to preprocess a source file
+src/open62541.c.i:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/open62541.c.i
+.PHONY : src/open62541.c.i
+
+src/open62541.s: src/open62541.c.s
+.PHONY : src/open62541.s
+
+# target to generate assembly for a file
+src/open62541.c.s:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/open62541.c.s
+.PHONY : src/open62541.c.s
+
+src/server.o: src/server.cpp.o
+.PHONY : src/server.o
+
+# target to build an object file
+src/server.cpp.o:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/server.cpp.o
+.PHONY : src/server.cpp.o
+
+src/server.i: src/server.cpp.i
+.PHONY : src/server.i
+
+# target to preprocess a source file
+src/server.cpp.i:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/server.cpp.i
+.PHONY : src/server.cpp.i
+
+src/server.s: src/server.cpp.s
+.PHONY : src/server.s
+
+# target to generate assembly for a file
+src/server.cpp.s:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/server.cpp.s
+.PHONY : src/server.cpp.s
+
+src/variable.o: src/variable.cpp.o
+.PHONY : src/variable.o
+
+# target to build an object file
+src/variable.cpp.o:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/variable.cpp.o
+.PHONY : src/variable.cpp.o
+
+src/variable.i: src/variable.cpp.i
+.PHONY : src/variable.i
+
+# target to preprocess a source file
+src/variable.cpp.i:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/variable.cpp.i
+.PHONY : src/variable.cpp.i
+
+src/variable.s: src/variable.cpp.s
+.PHONY : src/variable.s
+
+# target to generate assembly for a file
+src/variable.cpp.s:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module2/CMakeFiles/module2.dir/build.make modules/module2/CMakeFiles/module2.dir/src/variable.cpp.s
+.PHONY : src/variable.cpp.s
 
 # Help Target
 help:
@@ -124,7 +292,26 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
 	@echo "... module2"
+	@echo "... src/argument.o"
+	@echo "... src/argument.i"
+	@echo "... src/argument.s"
+	@echo "... src/client.o"
+	@echo "... src/client.i"
+	@echo "... src/client.s"
+	@echo "... src/object.o"
+	@echo "... src/object.i"
+	@echo "... src/object.s"
+	@echo "... src/open62541.o"
+	@echo "... src/open62541.i"
+	@echo "... src/open62541.s"
+	@echo "... src/server.o"
+	@echo "... src/server.i"
+	@echo "... src/server.s"
+	@echo "... src/variable.o"
+	@echo "... src/variable.i"
+	@echo "... src/variable.s"
 .PHONY : help
 
 
@@ -136,6 +323,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

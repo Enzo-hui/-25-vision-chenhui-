@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/common/singleton/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/modules/assembly2/include -isystem /usr/local/include/opencv4
+CXX_INCLUDES = -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/common/singleton/include -I/home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/modules/assembly2/include -isystem /usr/local/include/opencv4
 
 CXX_FLAGS = -g -std=gnu++20
 

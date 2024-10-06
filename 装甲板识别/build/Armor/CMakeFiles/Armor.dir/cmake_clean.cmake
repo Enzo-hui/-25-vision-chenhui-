@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Armor.dir/src/LightBar.cpp.o.d"
   "CMakeFiles/Armor.dir/src/distance.cpp.o"
   "CMakeFiles/Armor.dir/src/distance.cpp.o.d"
+  "CMakeFiles/Armor.dir/src/draw.cpp.o"
+  "CMakeFiles/Armor.dir/src/draw.cpp.o.d"
   "CMakeFiles/Armor.dir/src/recognition.cpp.o"
   "CMakeFiles/Armor.dir/src/recognition.cpp.o.d"
   "libArmor.a"

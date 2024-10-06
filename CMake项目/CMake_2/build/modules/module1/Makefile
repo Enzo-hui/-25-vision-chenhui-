@@ -57,13 +57,23 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II
+CMAKE_SOURCE_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build
+CMAKE_BINARY_DIR = /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -87,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/CMakeFiles /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/modules/module1//CMakeFiles/progress.marks
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build/CMakeFiles 0
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/CMakeFiles /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/modules/module1//CMakeFiles/progress.marks
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module1/clean
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module1/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module1/preinstall
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module1/preinstall
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 modules/module1/CMakeFiles/module1.dir/rule:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module1/CMakeFiles/module1.dir/rule
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/module1/CMakeFiles/module1.dir/rule
 .PHONY : modules/module1/CMakeFiles/module1.dir/rule
 
 # Convenience name for target.
@@ -127,7 +137,7 @@ module1: modules/module1/CMakeFiles/module1.dir/rule
 
 # fast build rule for target.
 module1/fast:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/build
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/build
 .PHONY : module1/fast
 
 src/module1a/m1.o: src/module1a/m1.cpp.o
@@ -135,7 +145,7 @@ src/module1a/m1.o: src/module1a/m1.cpp.o
 
 # target to build an object file
 src/module1a/m1.cpp.o:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m1.cpp.o
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m1.cpp.o
 .PHONY : src/module1a/m1.cpp.o
 
 src/module1a/m1.i: src/module1a/m1.cpp.i
@@ -143,7 +153,7 @@ src/module1a/m1.i: src/module1a/m1.cpp.i
 
 # target to preprocess a source file
 src/module1a/m1.cpp.i:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m1.cpp.i
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m1.cpp.i
 .PHONY : src/module1a/m1.cpp.i
 
 src/module1a/m1.s: src/module1a/m1.cpp.s
@@ -151,7 +161,7 @@ src/module1a/m1.s: src/module1a/m1.cpp.s
 
 # target to generate assembly for a file
 src/module1a/m1.cpp.s:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m1.cpp.s
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m1.cpp.s
 .PHONY : src/module1a/m1.cpp.s
 
 src/module1a/m2.o: src/module1a/m2.cpp.o
@@ -159,7 +169,7 @@ src/module1a/m2.o: src/module1a/m2.cpp.o
 
 # target to build an object file
 src/module1a/m2.cpp.o:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m2.cpp.o
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m2.cpp.o
 .PHONY : src/module1a/m2.cpp.o
 
 src/module1a/m2.i: src/module1a/m2.cpp.i
@@ -167,7 +177,7 @@ src/module1a/m2.i: src/module1a/m2.cpp.i
 
 # target to preprocess a source file
 src/module1a/m2.cpp.i:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m2.cpp.i
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m2.cpp.i
 .PHONY : src/module1a/m2.cpp.i
 
 src/module1a/m2.s: src/module1a/m2.cpp.s
@@ -175,7 +185,7 @@ src/module1a/m2.s: src/module1a/m2.cpp.s
 
 # target to generate assembly for a file
 src/module1a/m2.cpp.s:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m2.cpp.s
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m2.cpp.s
 .PHONY : src/module1a/m2.cpp.s
 
 src/module1a/m3.o: src/module1a/m3.cpp.o
@@ -183,7 +193,7 @@ src/module1a/m3.o: src/module1a/m3.cpp.o
 
 # target to build an object file
 src/module1a/m3.cpp.o:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m3.cpp.o
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m3.cpp.o
 .PHONY : src/module1a/m3.cpp.o
 
 src/module1a/m3.i: src/module1a/m3.cpp.i
@@ -191,7 +201,7 @@ src/module1a/m3.i: src/module1a/m3.cpp.i
 
 # target to preprocess a source file
 src/module1a/m3.cpp.i:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m3.cpp.i
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m3.cpp.i
 .PHONY : src/module1a/m3.cpp.i
 
 src/module1a/m3.s: src/module1a/m3.cpp.s
@@ -199,7 +209,7 @@ src/module1a/m3.s: src/module1a/m3.cpp.s
 
 # target to generate assembly for a file
 src/module1a/m3.cpp.s:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m3.cpp.s
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m3.cpp.s
 .PHONY : src/module1a/m3.cpp.s
 
 src/module1a/m4.o: src/module1a/m4.cpp.o
@@ -207,7 +217,7 @@ src/module1a/m4.o: src/module1a/m4.cpp.o
 
 # target to build an object file
 src/module1a/m4.cpp.o:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m4.cpp.o
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m4.cpp.o
 .PHONY : src/module1a/m4.cpp.o
 
 src/module1a/m4.i: src/module1a/m4.cpp.i
@@ -215,7 +225,7 @@ src/module1a/m4.i: src/module1a/m4.cpp.i
 
 # target to preprocess a source file
 src/module1a/m4.cpp.i:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m4.cpp.i
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m4.cpp.i
 .PHONY : src/module1a/m4.cpp.i
 
 src/module1a/m4.s: src/module1a/m4.cpp.s
@@ -223,8 +233,32 @@ src/module1a/m4.s: src/module1a/m4.cpp.s
 
 # target to generate assembly for a file
 src/module1a/m4.cpp.s:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m4.cpp.s
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1a/m4.cpp.s
 .PHONY : src/module1a/m4.cpp.s
+
+src/module1b/module1b.o: src/module1b/module1b.cpp.o
+.PHONY : src/module1b/module1b.o
+
+# target to build an object file
+src/module1b/module1b.cpp.o:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1b/module1b.cpp.o
+.PHONY : src/module1b/module1b.cpp.o
+
+src/module1b/module1b.i: src/module1b/module1b.cpp.i
+.PHONY : src/module1b/module1b.i
+
+# target to preprocess a source file
+src/module1b/module1b.cpp.i:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1b/module1b.cpp.i
+.PHONY : src/module1b/module1b.cpp.i
+
+src/module1b/module1b.s: src/module1b/module1b.cpp.s
+.PHONY : src/module1b/module1b.s
+
+# target to generate assembly for a file
+src/module1b/module1b.cpp.s:
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(MAKE) $(MAKESILENT) -f modules/module1/CMakeFiles/module1.dir/build.make modules/module1/CMakeFiles/module1.dir/src/module1b/module1b.cpp.s
+.PHONY : src/module1b/module1b.cpp.s
 
 # Help Target
 help:
@@ -234,6 +268,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
 	@echo "... module1"
 	@echo "... src/module1a/m1.o"
 	@echo "... src/module1a/m1.i"
@@ -247,6 +282,9 @@ help:
 	@echo "... src/module1a/m4.o"
 	@echo "... src/module1a/m4.i"
 	@echo "... src/module1a/m4.s"
+	@echo "... src/module1b/module1b.o"
+	@echo "... src/module1b/module1b.i"
+	@echo "... src/module1b/module1b.s"
 .PHONY : help
 
 
@@ -258,6 +296,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

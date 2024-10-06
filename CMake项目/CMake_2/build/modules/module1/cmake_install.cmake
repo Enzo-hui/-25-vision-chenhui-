@@ -1,4 +1,4 @@
-# Install script for directory: /home/chen/华南虎视觉/考核项目/CMake项目/CMake_II/modules/module1
+# Install script for directory: /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/modules/module1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -226,6 +226,30 @@ src/distance.cpp.s:
 	cd /home/chen/华南虎视觉/考核项目/装甲板识别/build && $(MAKE) $(MAKESILENT) -f Armor/CMakeFiles/Armor.dir/build.make Armor/CMakeFiles/Armor.dir/src/distance.cpp.s
 .PHONY : src/distance.cpp.s
 
+src/draw.o: src/draw.cpp.o
+.PHONY : src/draw.o
+
+# target to build an object file
+src/draw.cpp.o:
+	cd /home/chen/华南虎视觉/考核项目/装甲板识别/build && $(MAKE) $(MAKESILENT) -f Armor/CMakeFiles/Armor.dir/build.make Armor/CMakeFiles/Armor.dir/src/draw.cpp.o
+.PHONY : src/draw.cpp.o
+
+src/draw.i: src/draw.cpp.i
+.PHONY : src/draw.i
+
+# target to preprocess a source file
+src/draw.cpp.i:
+	cd /home/chen/华南虎视觉/考核项目/装甲板识别/build && $(MAKE) $(MAKESILENT) -f Armor/CMakeFiles/Armor.dir/build.make Armor/CMakeFiles/Armor.dir/src/draw.cpp.i
+.PHONY : src/draw.cpp.i
+
+src/draw.s: src/draw.cpp.s
+.PHONY : src/draw.s
+
+# target to generate assembly for a file
+src/draw.cpp.s:
+	cd /home/chen/华南虎视觉/考核项目/装甲板识别/build && $(MAKE) $(MAKESILENT) -f Armor/CMakeFiles/Armor.dir/build.make Armor/CMakeFiles/Armor.dir/src/draw.cpp.s
+.PHONY : src/draw.cpp.s
+
 src/recognition.o: src/recognition.cpp.o
 .PHONY : src/recognition.o
 
@@ -271,6 +295,9 @@ help:
 	@echo "... src/distance.o"
 	@echo "... src/distance.i"
 	@echo "... src/distance.s"
+	@echo "... src/draw.o"
+	@echo "... src/draw.i"
+	@echo "... src/draw.s"
 	@echo "... src/recognition.o"
 	@echo "... src/recognition.i"
 	@echo "... src/recognition.s"

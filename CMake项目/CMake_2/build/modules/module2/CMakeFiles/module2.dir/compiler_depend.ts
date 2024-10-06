@@ -1,2 +1,2 @@
 # CMAKE generated file: DO NOT EDIT!
-# Timestamp file for custom commands dependencies management for module2.
+# Timestamp file for compiler generated dependencies management for module2.

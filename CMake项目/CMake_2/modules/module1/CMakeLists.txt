@@ -1,5 +1,5 @@
 aux_source_directory(src/module1a module1a_cpp)
-aux_source_directory(src/modulelb module1b_cpp)
+aux_source_directory(src/module1b module1b_cpp)
 add_library(module1 ${module1a_cpp} ${module1b_cpp})
 target_include_directories(module1 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_link_libraries(module1 PUBLIC assembly2)

@@ -125,10 +125,24 @@ Armor/CMakeFiles/Armor.dir/src/distance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Armor.dir/src/distance.cpp.s"
 	cd /home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/distance.cpp -o CMakeFiles/Armor.dir/src/distance.cpp.s
 
+Armor/CMakeFiles/Armor.dir/src/draw.cpp.o: Armor/CMakeFiles/Armor.dir/flags.make
+Armor/CMakeFiles/Armor.dir/src/draw.cpp.o: ../Armor/src/draw.cpp
+Armor/CMakeFiles/Armor.dir/src/draw.cpp.o: Armor/CMakeFiles/Armor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/华南虎视觉/考核项目/装甲板识别/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Armor/CMakeFiles/Armor.dir/src/draw.cpp.o"
+	cd /home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Armor/CMakeFiles/Armor.dir/src/draw.cpp.o -MF CMakeFiles/Armor.dir/src/draw.cpp.o.d -o CMakeFiles/Armor.dir/src/draw.cpp.o -c /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/draw.cpp
+
+Armor/CMakeFiles/Armor.dir/src/draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Armor.dir/src/draw.cpp.i"
+	cd /home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/draw.cpp > CMakeFiles/Armor.dir/src/draw.cpp.i
+
+Armor/CMakeFiles/Armor.dir/src/draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Armor.dir/src/draw.cpp.s"
+	cd /home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/draw.cpp -o CMakeFiles/Armor.dir/src/draw.cpp.s
+
 Armor/CMakeFiles/Armor.dir/src/recognition.cpp.o: Armor/CMakeFiles/Armor.dir/flags.make
 Armor/CMakeFiles/Armor.dir/src/recognition.cpp.o: ../Armor/src/recognition.cpp
 Armor/CMakeFiles/Armor.dir/src/recognition.cpp.o: Armor/CMakeFiles/Armor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/华南虎视觉/考核项目/装甲板识别/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Armor/CMakeFiles/Armor.dir/src/recognition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/华南虎视觉/考核项目/装甲板识别/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Armor/CMakeFiles/Armor.dir/src/recognition.cpp.o"
 	cd /home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Armor/CMakeFiles/Armor.dir/src/recognition.cpp.o -MF CMakeFiles/Armor.dir/src/recognition.cpp.o.d -o CMakeFiles/Armor.dir/src/recognition.cpp.o -c /home/chen/华南虎视觉/考核项目/装甲板识别/Armor/src/recognition.cpp
 
 Armor/CMakeFiles/Armor.dir/src/recognition.cpp.i: cmake_force
@@ -145,6 +159,7 @@ Armor_OBJECTS = \
 "CMakeFiles/Armor.dir/src/ArmorMatch.cpp.o" \
 "CMakeFiles/Armor.dir/src/LightBar.cpp.o" \
 "CMakeFiles/Armor.dir/src/distance.cpp.o" \
+"CMakeFiles/Armor.dir/src/draw.cpp.o" \
 "CMakeFiles/Armor.dir/src/recognition.cpp.o"
 
 # External object files for target Armor
@@ -154,10 +169,11 @@ Armor/libArmor.a: Armor/CMakeFiles/Armor.dir/src/Armor.cpp.o
 Armor/libArmor.a: Armor/CMakeFiles/Armor.dir/src/ArmorMatch.cpp.o
 Armor/libArmor.a: Armor/CMakeFiles/Armor.dir/src/LightBar.cpp.o
 Armor/libArmor.a: Armor/CMakeFiles/Armor.dir/src/distance.cpp.o
+Armor/libArmor.a: Armor/CMakeFiles/Armor.dir/src/draw.cpp.o
 Armor/libArmor.a: Armor/CMakeFiles/Armor.dir/src/recognition.cpp.o
 Armor/libArmor.a: Armor/CMakeFiles/Armor.dir/build.make
 Armor/libArmor.a: Armor/CMakeFiles/Armor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/华南虎视觉/考核项目/装甲板识别/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libArmor.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/华南虎视觉/考核项目/装甲板识别/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libArmor.a"
 	cd /home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor && $(CMAKE_COMMAND) -P CMakeFiles/Armor.dir/cmake_clean_target.cmake
 	cd /home/chen/华南虎视觉/考核项目/装甲板识别/build/Armor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Armor.dir/link.txt --verbose=$(VERBOSE)
 

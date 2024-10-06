@@ -1,0 +1,19 @@
+Start testing: Oct 07 00:32 CST
+----------------------------------------------------------
+1/1 Testing: assembly1_test
+1/1 Test: assembly1_test
+Command: "/home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/modules/assembly1/assembly1_test"
+Directory: /home/chen/华南虎视觉/考核项目/CMake项目/CMake_2/build/modules/assembly1
+"assembly1_test" start time: Oct 07 00:32 CST
+Output:
+----------------------------------------------------------
+2
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"assembly1_test" end time: Oct 07 00:32 CST
+"assembly1_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 07 00:32 CST

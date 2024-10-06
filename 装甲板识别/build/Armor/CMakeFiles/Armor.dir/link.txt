@@ -1,2 +1,2 @@
-/usr/bin/ar qc libArmor.a CMakeFiles/Armor.dir/src/Armor.cpp.o CMakeFiles/Armor.dir/src/ArmorMatch.cpp.o CMakeFiles/Armor.dir/src/LightBar.cpp.o CMakeFiles/Armor.dir/src/distance.cpp.o CMakeFiles/Armor.dir/src/recognition.cpp.o
+/usr/bin/ar qc libArmor.a CMakeFiles/Armor.dir/src/Armor.cpp.o CMakeFiles/Armor.dir/src/ArmorMatch.cpp.o CMakeFiles/Armor.dir/src/LightBar.cpp.o CMakeFiles/Armor.dir/src/distance.cpp.o CMakeFiles/Armor.dir/src/draw.cpp.o CMakeFiles/Armor.dir/src/recognition.cpp.o
 /usr/bin/ranlib libArmor.a

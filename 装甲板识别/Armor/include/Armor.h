@@ -18,6 +18,8 @@ extern std::mutex mtx;
 
 void getdistance(Mat img,std::vector<Point2f> contours);
 void reset();
+void drawArmor(cv::Mat frame);
+
 
 // recognition函数的声明
 void recognition(const Mat frame);
@@ -34,7 +36,6 @@ public:
     Point2f center;        // 灯条的中心
     float angle;
 };
-
 // 装甲板类的声明
 class Armor
 {

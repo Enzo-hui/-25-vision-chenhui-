@@ -1,30 +1,8 @@
 #include "Armor.h"
 
-// bl左下 tl左上
-const Point2f crossPointof(const Point2f &bl, const Point2f &tl, const Point2f &tr, const Point2f &br)
-{
-    float a1 = tr.y - bl.y;
-    float b1 = tr.x - bl.x;
-    float c1 = bl.x * tr.y - tr.x * bl.y;
-
-    float a2 = br.y - tl.y;
-    float b2 = br.x - tl.x;
-    float c2 = tl.x * br.y - br.x * tl.y;
-
-    float d = a1 * b2 - a2 * b1;
-
-    if (d == 0.0)
-    {
-        return Point2f(FLT_MAX, FLT_MAX);
-    }
-    else
-    {
-        return cv::Point2f((b2 * c1 - b1 * c2) / d, (c1 * a2 - c2 * a1) / d);
-    }
-}
 void setArmorVertices(const LightBar &l_light, const LightBar &r_light, Armor &armor)
 {
-    // handle two lights
+    // 将两个灯条上的顶点赋给装甲板
     cv::Size exLSize(int(l_light.lightRect.size.width), int(l_light.lightRect.size.height * 2));
     cv::Size exRSize(int(r_light.lightRect.size.width), int(r_light.lightRect.size.height * 2));
     cv::RotatedRect exLLight(l_light.center, exLSize, armor.armorAngle);
@@ -46,7 +24,7 @@ void setArmorVertices(const LightBar &l_light, const LightBar &r_light, Armor &a
     armor.armorVertices[3] = lower_l;
 }
 
-Armor::Armor()
+Armor::Armor()//无参构造
 {
     l_index = -1;
     r_index = -1;
@@ -58,7 +36,7 @@ Armor::Armor()
     armorImg = Mat();
 }
 
-Armor::Armor(const LightBar &l_light, const LightBar &r_light)
+Armor::Armor(const LightBar &l_light, const LightBar &r_light)//有参构造
 {
     this->l_light = l_light;
     this->r_light = r_light;
@@ -68,7 +46,7 @@ Armor::Armor(const LightBar &l_light, const LightBar &r_light)
     armorVertices.resize(4);
     setArmorVertices(l_light, r_light, *this);
 
-    center = crossPointof(armorVertices[0], armorVertices[1], armorVertices[2], armorVertices[3]);
+   
 
     armorRect = boundingRect(armorVertices);
 }
@@ -77,14 +55,14 @@ Armor ::~Armor()
 {
 }
 
-// angle difference: the angle difference of left and right lights 装甲板左右灯条角度差
+//  装甲板左右灯条角度差
 float Armor::getAngleDiff() const
 {
-    float angle_diff = abs(l_light.angle - r_light.angle); // get the abs of angle_diff 灯条的角度差
+    float angle_diff = abs(l_light.angle - r_light.angle); //  灯条的角度差
     return angle_diff;
 }
 
-// deviation angle : the horizon angle of the line of centers of lights 灯条错位度角(两灯条中心连线与水平线夹角)
+// 灯条错位度角(两灯条中心连线与水平线夹角)
 float Armor::getDeviationAngle() const
 {
     float delta_x = r_light.center.x - l_light.center.x;               // Δx
@@ -93,7 +71,7 @@ float Armor::getDeviationAngle() const
     return deviationAngle;
 }
 
-// dislocation judge X: r-l light center distance ration on the X-axis 灯条位置差距 两灯条中心x方向差距比值
+// 灯条位置差距 两灯条中心x方向差距比值
 float Armor::getDislocationX() const
 {
     float meanLen = (l_light.length + r_light.length) / 2;
@@ -102,7 +80,7 @@ float Armor::getDislocationX() const
     return xDiff_ratio;
 }
 
-// dislocation judge Y:  r-l light center distance ration on the Y-axis 灯条位置差距 两灯条中心Y方向差距比值
+// 灯条位置差距 两灯条中心Y方向差距比值
 float Armor::getDislocationY() const
 {
     float meanLen = (l_light.length + r_light.length) / 2;
@@ -111,7 +89,7 @@ float Armor::getDislocationY() const
     return yDiff_ratio;
 }
 
-// length difference ration: the length difference ration r-l lights 左右灯条长度差比值
+//  左右灯条长度差比值
 float Armor::getLengthRation() const
 {
     float length_diff = abs(l_light.length - r_light.length);
@@ -119,12 +97,12 @@ float Armor::getLengthRation() const
     return lengthDiffRation;
 }
 
-// judge whether this armor is suitable or not  判断本装甲板是否是合适的装甲板
+//   判断本装甲板是否是合适的装甲板
 bool Armor::isSuitableArmor() const
 {
-    return this->getAngleDiff() < 6 &&       // angle difference judge the angleDiff should be less than max_angle_diff 灯条角度差判断，需小于允许的最大角差
-           this->getDeviationAngle() < 50 && // deviation angle judge: the horizon angle of the line of centers of lights 灯条错位度角(两灯条中心连线与水平线夹角)判断
-           this->getDislocationX() < 4.5 &&  // dislocation judge: the x and y can not be too far 灯条位置差距 两灯条中心x、y方向差距不可偏大（用比值作为衡量依据）
-           this->getDislocationY() < 0.5 &&  // dislocation judge: the x and y can not be too far 灯条位置差距 两灯条中心x、y方向差距不可偏大（用比值作为衡量依据）
+    return this->getAngleDiff() < 6 &&       //灯条角度差判断，需小于允许的最大角差
+           this->getDeviationAngle() < 50 && //灯条错位度角(两灯条中心连线与水平线夹角)判断
+           this->getDislocationX() < 5 &&  //灯条位置差距 两灯条中心x、y方向差距不可偏大（用比值作为衡量依据）
+           this->getDislocationY() < 0.5 &&  //灯条位置差距 两灯条中心x、y方向差距不可偏大（用比值作为衡量依据）
            this->getLengthRation() < 0.5;
 }

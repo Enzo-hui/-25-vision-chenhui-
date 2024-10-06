@@ -73,8 +73,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/server.dir/DependInfo.cmake"
   "CMakeFiles/client.dir/DependInfo.cmake"
   "modules/assembly1/CMakeFiles/assembly1.dir/DependInfo.cmake"
+  "modules/assembly1/CMakeFiles/assembly1_test.dir/DependInfo.cmake"
   "modules/assembly2/CMakeFiles/assembly2.dir/DependInfo.cmake"
   "modules/module1/CMakeFiles/module1.dir/DependInfo.cmake"
   "modules/module2/CMakeFiles/module2.dir/DependInfo.cmake"
   "common/rmath/CMakeFiles/rmath.dir/DependInfo.cmake"
+  "common/singleton/CMakeFiles/singleton.dir/DependInfo.cmake"
   )

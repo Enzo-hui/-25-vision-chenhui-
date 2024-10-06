@@ -1,4 +1,4 @@
-# Install script for directory: /home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/common
+# Install script for directory: /home/chen/华南虎视觉/考核项目/CMake项目/CMake_1/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/common/kalman/cmake_install.cmake")
-  include("/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/common/math/cmake_install.cmake")
+  include("/home/chen/华南虎视觉/考核项目/CMake项目/CMake_1/build/common/kalman/cmake_install.cmake")
+  include("/home/chen/华南虎视觉/考核项目/CMake项目/CMake_1/build/common/math/cmake_install.cmake")
 
 endif()
 

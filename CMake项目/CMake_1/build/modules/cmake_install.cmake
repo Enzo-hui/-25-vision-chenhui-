@@ -1,4 +1,4 @@
-# Install script for directory: /home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/modules
+# Install script for directory: /home/chen/华南虎视觉/考核项目/CMake项目/CMake_1/modules
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,10 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/modules/A1/cmake_install.cmake")
-  include("/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/modules/A2/cmake_install.cmake")
-  include("/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/modules/M1/cmake_install.cmake")
-  include("/home/chen/华南虎视觉/考核项目/CMake项目/CMake_I/build/modules/M2/cmake_install.cmake")
+  include("/home/chen/华南虎视觉/考核项目/CMake项目/CMake_1/build/modules/A1/cmake_install.cmake")
+  include("/home/chen/华南虎视觉/考核项目/CMake项目/CMake_1/build/modules/A2/cmake_install.cmake")
+  include("/home/chen/华南虎视觉/考核项目/CMake项目/CMake_1/build/modules/M1/cmake_install.cmake")
+  include("/home/chen/华南虎视觉/考核项目/CMake项目/CMake_1/build/modules/M2/cmake_install.cmake")
 
 endif()
 
