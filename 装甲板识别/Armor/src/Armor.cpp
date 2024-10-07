@@ -75,7 +75,7 @@ float Armor::getDeviationAngle() const
 float Armor::getDislocationX() const
 {
     float meanLen = (l_light.length + r_light.length) / 2;
-    float xDiff = abs(l_light.center.x - r_light.center.x); // x distance ration y轴方向上的距离比值（y轴距离与灯条平均值的比）
+    float xDiff = abs(l_light.center.x - r_light.center.x); // nx轴方向上的距离比值（x轴距离与灯条平均值的比）
     float xDiff_ratio = xDiff / meanLen;
     return xDiff_ratio;
 }
@@ -84,7 +84,7 @@ float Armor::getDislocationX() const
 float Armor::getDislocationY() const
 {
     float meanLen = (l_light.length + r_light.length) / 2;
-    float yDiff = abs(l_light.center.y - r_light.center.y); // y distance ration x轴方向上的距离比值（x轴距离与灯条平均值的比）
+    float yDiff = abs(l_light.center.y - r_light.center.y); // y轴方向上的距离比值（y轴距离与灯条平均值的比）
     float yDiff_ratio = yDiff / meanLen;
     return yDiff_ratio;
 }

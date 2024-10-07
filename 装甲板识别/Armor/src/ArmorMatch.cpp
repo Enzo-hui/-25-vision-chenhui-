@@ -31,31 +31,9 @@ void matchArmors()
             }
             num2++;
         }
-
-      
         num1++;
-        deleteErrorArmor(armors); // 删除错误装甲板
     }
 }
 
 
-// 删除错误的装甲板
-void deleteErrorArmor(vector<Armor> &aromrs)
-{
-    int length = armors.size();
-    vector<Armor>::iterator it = armors.begin();
-    for (size_t i = 0; i < length; i++)
-    {
-        for (size_t j = i + 1; j < length; j++)
-        {
-            if (armors[i].l_index == armors[j].l_index ||
-                armors[i].l_index == armors[j].r_index ||
-                armors[i].r_index == armors[j].l_index ||
-                armors[i].r_index == armors[j].r_index)
-            {
-                armors[i].getDeviationAngle() > armors[j].getDeviationAngle() ? armors.erase(it + i) : armors.erase(it + j);
-            }
-        }
-    }
-}
 

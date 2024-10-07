@@ -6,7 +6,7 @@ using namespace std;
 
 condition_variable cond;
 queue<Mat> fpslist; // 线程安全的队列，存储待处理的帧
-atomic<bool> finished = false;//原子变量
+atomic<bool> finished = false;//显示任务是否完成
 
 void frameReader(VideoCapture &cap);//帧提取函数的声明
 void frameProcessor();//帧处理函数的声明
@@ -94,12 +94,12 @@ void frameProcessor()
             frame = fpslist.front();
             fpslist.pop();
 
-            recognition(frame);
+            recognition(frame);//识别灯条
             
-            matchArmors();
+            matchArmors();//匹配装甲板
             
-            drawArmor(frame);
-            // double seconds = 2.5;
+            drawArmor(frame);//画出装甲板
+            
             // this_thread::sleep_for(std::chrono::milliseconds(1)); // 等待1毫秒，以便显示帧
             waitKey(20);
             reset();

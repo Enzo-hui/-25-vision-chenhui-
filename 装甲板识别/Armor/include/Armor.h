@@ -69,5 +69,3 @@ public:
 extern std::vector<LightBar> lights;
 extern std::vector<Armor> armors;
 void matchArmors();
-void deleteErrorArmor(std::vector<Armor> &aromrs);
-float getPointsDistance(const Point2f& a, const Point2f& b);
