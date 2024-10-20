@@ -1,0 +1,31 @@
+-- Found ament_cmake: 1.3.0 (/usr/share/ament_cmake/cmake)
+-- Found nav2_bringup: 1.1.16 (/opt/ros/humble/share/nav2_bringup/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/build/my_car
+-- Install configuration: ""
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/config
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/config/my_car_2d.lua
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/launch
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/launch/cartographer.launch.py
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/rviz
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/ament_index/resource_index/package_run_dependencies/my_car
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/ament_index/resource_index/parent_prefix_path/my_car
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/environment/ament_prefix_path.sh
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/environment/ament_prefix_path.dsv
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/environment/path.sh
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/environment/path.dsv
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/local_setup.bash
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/local_setup.sh
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/local_setup.zsh
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/local_setup.dsv
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/package.dsv
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/ament_index/resource_index/packages/my_car
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/cmake/my_carConfig.cmake
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/cmake/my_carConfig-version.cmake
+-- Installing: /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car/share/my_car/package.xml

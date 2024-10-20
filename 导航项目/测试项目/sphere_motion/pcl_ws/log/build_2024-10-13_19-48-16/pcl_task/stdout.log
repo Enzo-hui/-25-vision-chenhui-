@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target PCD_Publisher[0m
+[ 50%] Built target ros2pcl_test_sub
+[ 75%] [32mBuilding CXX object CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o[0m

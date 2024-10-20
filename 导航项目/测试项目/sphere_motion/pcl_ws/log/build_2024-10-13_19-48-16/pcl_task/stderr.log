@@ -1,0 +1,22 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:1[m[K:
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:[m[K In member function ‘[01m[Kvoid PCD_loading::PCD_publisher()[m[K’:
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:62:69:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’}
+   62 |          RCLCPP_INFO(this->get_logger(), "points_size(%d,%d)",output[01;31m[K->[m[Kheight,output->width);
+      |                                                                     [01;31m[K^~[m[K
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:62:84:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’}
+   62 |          RCLCPP_INFO(this->get_logger(), "points_size(%d,%d)",output->height,output[01;31m[K->[m[Kwidth);
+      |                                                                                    [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/PCD_Publisher.dir/build.make:76：CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/PCD_Publisher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

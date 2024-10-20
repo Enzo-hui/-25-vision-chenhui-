@@ -1,0 +1,13 @@
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:[m[K In member function ‘[01m[Kvoid PCD_loading::PCD_publisher()[m[K’:
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:35:14:[m[K [01;31m[Kerror: [m[K‘[01m[KPassThrough[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   35 |         pcl::[01;31m[KPassThrough[m[K<pcl::PointXYZ> pass;
+      |              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:35:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   35 |         pcl::PassThrough<pcl::PointXYZ[01;31m[K>[m[K pass;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:35:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kpass[m[K’ was not declared in this scope
+   35 |         pcl::PassThrough<pcl::PointXYZ> [01;31m[Kpass[m[K;
+      |                                         [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/PCD_Publisher.dir/build.make:76：CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/PCD_Publisher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

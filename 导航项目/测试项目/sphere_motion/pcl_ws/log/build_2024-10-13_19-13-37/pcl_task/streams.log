@@ -1,0 +1,90 @@
+[0.007s] Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task -- -j32 -l32
+[0.024s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.114s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.115s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.118s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.128s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.152s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.165s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.165s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.246s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.261s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.450s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.454s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.454s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.541s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.546s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.551s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.636s] -- Found Qhull version 8.0.2
+[0.713s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.787s] -- looking for PCL_COMMON
+[0.787s] -- looking for PCL_KDTREE
+[0.787s] -- looking for PCL_OCTREE
+[0.787s] -- looking for PCL_SEARCH
+[0.787s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.787s] -- looking for PCL_FILTERS
+[0.788s] -- looking for PCL_2D
+[0.788s] -- looking for PCL_GEOMETRY
+[0.788s] -- looking for PCL_IO
+[0.788s] -- looking for PCL_FEATURES
+[0.788s] -- looking for PCL_ML
+[0.788s] -- looking for PCL_SEGMENTATION
+[0.788s] -- looking for PCL_VISUALIZATION
+[0.789s] -- looking for PCL_SURFACE
+[0.789s] -- looking for PCL_REGISTRATION
+[0.789s] -- looking for PCL_KEYPOINTS
+[0.789s] -- looking for PCL_TRACKING
+[0.789s] -- looking for PCL_RECOGNITION
+[0.789s] -- looking for PCL_STEREO
+[0.790s] -- looking for PCL_APPS
+[0.790s] -- looking for PCL_IN_HAND_SCANNER
+[0.790s] -- looking for PCL_MODELER
+[0.790s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.790s] -- looking for PCL_OUTOFCORE
+[0.791s] -- looking for PCL_PEOPLE
+[0.791s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[0.791s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.802s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.838s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.838s] -- Configured cppcheck include dirs: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/include
+[0.838s] -- Configured cppcheck exclude dirs and/or files: 
+[0.838s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.838s] -- Added test 'lint_cmake' to check CMake code style
+[0.838s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.839s] -- Added test 'uncrustify' to check C / C++ code style
+[0.839s] -- Configured uncrustify additional arguments: 
+[0.839s] -- Added test 'xmllint' to check XML markup files
+[0.839s] -- Configuring done
+[0.850s] -- Generating done
+[0.851s] -- Build files have been written to: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task
+[0.872s] [35m[1mConsolidate compiler generated dependencies of target PCD_Publisher[0m
+[0.889s] [ 50%] [32mBuilding CXX object CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o[0m
+[4.387s] [100%] [32m[1mLinking CXX executable PCD_Publisher[0m
+[4.713s] [100%] Built target PCD_Publisher
+[4.721s] Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task -- -j32 -l32
+[4.766s] Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task
+[4.774s] -- Install configuration: ""
+[4.774s] -- Installing: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/lib/pcl_task/PCD_Publisher
+[4.776s] -- Set runtime path of "/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/lib/pcl_task/PCD_Publisher" to ""
+[4.776s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/launch
+[4.776s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/launch/PCD_Publisher.launch.py
+[4.776s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/ament_index/resource_index/package_run_dependencies/pcl_task
+[4.776s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/ament_index/resource_index/parent_prefix_path/pcl_task
+[4.776s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/environment/ament_prefix_path.sh
+[4.776s] -- Installing: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/environment/ament_prefix_path.dsv
+[4.776s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/environment/path.sh
+[4.776s] -- Installing: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/environment/path.dsv
+[4.777s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/local_setup.bash
+[4.777s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/local_setup.sh
+[4.777s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/local_setup.zsh
+[4.777s] -- Installing: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/local_setup.dsv
+[4.777s] -- Installing: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/package.dsv
+[4.777s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/ament_index/resource_index/packages/pcl_task
+[4.777s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.777s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/cmake/pcl_taskConfig.cmake
+[4.777s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/cmake/pcl_taskConfig-version.cmake
+[4.777s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/package.xml
+[4.779s] Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task

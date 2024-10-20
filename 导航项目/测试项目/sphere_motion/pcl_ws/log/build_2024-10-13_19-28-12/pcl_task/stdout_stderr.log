@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target PCD_Publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o[0m
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:[m[K In member function ‘[01m[Kvoid PCD_loading::PCD_publisher()[m[K’:
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:35:14:[m[K [01;31m[Kerror: [m[K‘[01m[KPassThrough[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   35 |         pcl::[01;31m[KPassThrough[m[K<pcl::PointXYZ> pass;
+      |              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:35:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   35 |         pcl::PassThrough<pcl::PointXYZ[01;31m[K>[m[K pass;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:35:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kpass[m[K’ was not declared in this scope
+   35 |         pcl::PassThrough<pcl::PointXYZ> [01;31m[Kpass[m[K;
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:53:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcl[m[K’ has not been declared
+   53 |         [01;31m[Kcl[m[K::PointCloud<pcl::PointXYZ>::Ptr cloud_filtered_2(new pcl::PointCloud<pcl::PointXYZ>);
+      |         [01;31m[K^~[m[K
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:53:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   53 |         cl::PointCloud<pcl::PointXYZ[01;31m[K>[m[K::Ptr cloud_filtered_2(new pcl::PointCloud<pcl::PointXYZ>);
+      |                                     [01;31m[K^[m[K
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:53:40:[m[K [01;31m[Kerror: [m[K‘[01m[K::Ptr[m[K’ has not been declared
+   53 |         cl::PointCloud<pcl::PointXYZ>::[01;31m[KPtr[m[K cloud_filtered_2(new pcl::PointCloud<pcl::PointXYZ>);
+      |                                        [01;31m[K^~~[m[K
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:54:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_filtered_2[m[K’ was not declared in this scope; did you mean ‘[01m[Kcloud_filtered[m[K’?
+   54 |         pass.setOutputCloud([01;31m[Kcloud_filtered_2[m[K);
+      |                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                             [32m[Kcloud_filtered[m[K
+gmake[2]: *** [CMakeFiles/PCD_Publisher.dir/build.make:76：CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/PCD_Publisher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

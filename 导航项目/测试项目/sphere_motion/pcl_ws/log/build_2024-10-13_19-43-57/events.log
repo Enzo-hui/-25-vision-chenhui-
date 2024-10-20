@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (pcl_task) JobQueued: {'identifier': 'pcl_task', 'dependencies': OrderedDict()}
+[0.000272] (pcl_task) JobStarted: {'identifier': 'pcl_task'}
+[0.004560] (pcl_task) JobProgress: {'identifier': 'pcl_task', 'progress': 'cmake'}
+[0.005098] (pcl_task) JobProgress: {'identifier': 'pcl_task', 'progress': 'build'}
+[0.005567] (pcl_task) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task', '--', '-j32', '-l32'], 'cwd': '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'chen'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1888'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=09b0a645e360fff43809972c670b1aee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Enzo:@/tmp/.ICE-unix/1888,unix/Enzo:/tmp/.ICE-unix/1888'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/76d04e67_1008_4a45_9b4c_c67267fdb7ac'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4929016308.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1548'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=09b0a645e360fff43809972c670b1aee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task:/opt/ros/humble')]), 'shell': False}
+[0.061566] (pcl_task) StdoutLine: {'line': b'[ 50%] Built target ros2pcl_test_sub\n'}
+[0.062062] (pcl_task) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o\x1b[0m\n'}
+[0.099967] (-) TimerEvent: {}
+[0.200374] (-) TimerEvent: {}
+[0.300659] (-) TimerEvent: {}
+[0.401014] (-) TimerEvent: {}
+[0.501397] (-) TimerEvent: {}
+[0.601817] (-) TimerEvent: {}
+[0.702207] (-) TimerEvent: {}
+[0.802524] (-) TimerEvent: {}
+[0.903087] (-) TimerEvent: {}
+[1.003603] (-) TimerEvent: {}
+[1.104035] (-) TimerEvent: {}
+[1.204491] (-) TimerEvent: {}
+[1.304882] (-) TimerEvent: {}
+[1.405295] (-) TimerEvent: {}
+[1.505684] (-) TimerEvent: {}
+[1.605982] (-) TimerEvent: {}
+[1.706370] (-) TimerEvent: {}
+[1.806752] (-) TimerEvent: {}
+[1.907127] (-) TimerEvent: {}
+[2.007523] (-) TimerEvent: {}
+[2.107873] (-) TimerEvent: {}
+[2.208257] (-) TimerEvent: {}
+[2.308628] (-) TimerEvent: {}
+[2.408958] (-) TimerEvent: {}
+[2.509319] (-) TimerEvent: {}
+[2.525375] (pcl_task) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.525573] (pcl_task) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.525628] (pcl_task) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.525678] (pcl_task) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.525726] (pcl_task) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.525773] (pcl_task) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.525819] (pcl_task) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.525865] (pcl_task) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.525914] (pcl_task) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.525959] (pcl_task) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.526011] (pcl_task) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:1\x1b[m\x1b[K:\n'}
+[2.526059] (pcl_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PCD_loading::PCD_publisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.526115] (pcl_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:61:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.526175] (pcl_task) StderrLine: {'line': b'   61 |         RCLCPP_INFO(\x1b[01;31m\x1b[Knode\x1b[m\x1b[K->get_logger(), "\xe8\x8a\x82\xe7\x82\xb9\xe5\xb7\xb2\xe7\xbb\x8f\xe5\x90\xaf\xe5\x8a\xa8.");\n'}
+[2.526224] (pcl_task) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.526270] (pcl_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:61:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.526316] (pcl_task) StderrLine: {'line': b'   61 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "\xe8\x8a\x82\xe7\x82\xb9\xe5\xb7\xb2\xe7\xbb\x8f\xe5\x90\xaf\xe5\x8a\xa8.");\n'}
+[2.526362] (pcl_task) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.526410] (pcl_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:61:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.526458] (pcl_task) StderrLine: {'line': b'   61 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "\xe8\x8a\x82\xe7\x82\xb9\xe5\xb7\xb2\xe7\xbb\x8f\xe5\x90\xaf\xe5\x8a\xa8.");\n'}
+[2.526504] (pcl_task) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.526550] (pcl_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:61:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.526597] (pcl_task) StderrLine: {'line': b'   61 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "\xe8\x8a\x82\xe7\x82\xb9\xe5\xb7\xb2\xe7\xbb\x8f\xe5\x90\xaf\xe5\x8a\xa8.");\n'}
+[2.526643] (pcl_task) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.609427] (-) TimerEvent: {}
+[2.709688] (-) TimerEvent: {}
+[2.810048] (-) TimerEvent: {}
+[2.910359] (-) TimerEvent: {}
+[3.010630] (-) TimerEvent: {}
+[3.110893] (-) TimerEvent: {}
+[3.188854] (pcl_task) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/PCD_Publisher.dir/build.make:76\xef\xbc\x9aCMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.189051] (pcl_task) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/PCD_Publisher.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.189119] (pcl_task) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.190617] (pcl_task) CommandEnded: {'returncode': 2}
+[3.211018] (-) TimerEvent: {}
+[3.217323] (pcl_task) JobEnded: {'identifier': 'pcl_task', 'rc': 2}
+[3.227659] (-) EventReactorShutdown: {}

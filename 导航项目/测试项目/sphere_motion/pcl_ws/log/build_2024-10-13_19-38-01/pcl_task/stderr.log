@@ -1,0 +1,12 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/ros2pcl_test_sub.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30:10:[m[K [01;31m[Kfatal error: [m[Krcl/guard_condition.h: 没有那个文件或目录
+   30 | #include [01;31m[K"rcl/guard_condition.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ros2pcl_test_sub.dir/build.make:76：CMakeFiles/ros2pcl_test_sub.dir/src/ros2pcl_test_sub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/ros2pcl_test_sub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

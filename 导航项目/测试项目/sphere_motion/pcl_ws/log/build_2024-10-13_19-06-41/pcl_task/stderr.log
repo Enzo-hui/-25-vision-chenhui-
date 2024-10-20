@@ -1,0 +1,7 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[0m** WARNING ** io features related to png will be disabled[0m
+/usr/bin/ld: CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x48): undefined reference to `pcl::VoxelGrid<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/PCD_Publisher.dir/build.make:233：PCD_Publisher] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/PCD_Publisher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

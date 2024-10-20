@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_car">
+  <xacro:include filename="$(find ven_test)/urdf/my_car_de/base_link.urdf.xacro" />
+  <xacro:include filename="$(find ven_test)/urdf/velodyne_description/urdf/VLP-16.urdf.xacro" />
+
+ 
+  <xacro:VLP-16 />
+
+  <xacro:base_link length="0.12" radius="0.1" />
+</robot>

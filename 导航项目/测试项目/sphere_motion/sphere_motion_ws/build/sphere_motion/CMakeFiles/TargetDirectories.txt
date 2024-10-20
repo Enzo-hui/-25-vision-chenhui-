@@ -1,0 +1,10 @@
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/sphere_motion_ws/build/sphere_motion/CMakeFiles/uninstall.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/sphere_motion_ws/build/sphere_motion/CMakeFiles/sphere_motion_uninstall.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/sphere_motion_ws/build/sphere_motion/CMakeFiles/sphere_motion.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/sphere_motion_ws/build/sphere_motion/CMakeFiles/test.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/sphere_motion_ws/build/sphere_motion/CMakeFiles/edit_cache.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/sphere_motion_ws/build/sphere_motion/CMakeFiles/rebuild_cache.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/sphere_motion_ws/build/sphere_motion/CMakeFiles/list_install_components.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/sphere_motion_ws/build/sphere_motion/CMakeFiles/install.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/sphere_motion_ws/build/sphere_motion/CMakeFiles/install/local.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/sphere_motion_ws/build/sphere_motion/CMakeFiles/install/strip.dir

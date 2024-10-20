@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000490] (pcl_task) JobQueued: {'identifier': 'pcl_task', 'dependencies': OrderedDict()}
+[0.000537] (pcl_task) JobStarted: {'identifier': 'pcl_task'}
+[0.004992] (pcl_task) JobProgress: {'identifier': 'pcl_task', 'progress': 'cmake'}
+[0.005746] (pcl_task) JobProgress: {'identifier': 'pcl_task', 'progress': 'build'}
+[0.006304] (pcl_task) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task', '--', '-j32', '-l32'], 'cwd': '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'chen'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1888'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=09b0a645e360fff43809972c670b1aee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Enzo:@/tmp/.ICE-unix/1888,unix/Enzo:/tmp/.ICE-unix/1888'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/76d04e67_1008_4a45_9b4c_c67267fdb7ac'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4929016308.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1548'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=09b0a645e360fff43809972c670b1aee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task:/opt/ros/humble')]), 'shell': False}
+[0.028239] (pcl_task) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.094164] (pcl_task) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.099921] (-) TimerEvent: {}
+[0.105719] (pcl_task) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.106814] (pcl_task) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.109561] (pcl_task) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.114058] (pcl_task) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.120171] (pcl_task) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.145335] (pcl_task) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.157756] (pcl_task) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.158481] (pcl_task) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200022] (-) TimerEvent: {}
+[0.212614] (pcl_task) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.239162] (pcl_task) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.251271] (pcl_task) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.254949] (pcl_task) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.255154] (pcl_task) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[0.255201] (pcl_task) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to png will be disabled\x1b[0m\n'}
+[0.300093] (-) TimerEvent: {}
+[0.400330] (-) TimerEvent: {}
+[0.448321] (pcl_task) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.448448] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[0.448508] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[0.448738] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[0.449026] (pcl_task) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_octree;pcl_io;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt  \n'}
+[0.449258] (pcl_task) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:13 (find_package):\n'}
+[0.449320] (pcl_task) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[0.449346] (pcl_task) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[0.449368] (pcl_task) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.449389] (pcl_task) StderrLine: {'line': b'\n'}
+[0.449410] (pcl_task) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[0.449430] (pcl_task) StderrLine: {'line': b'\n'}
+[0.449450] (pcl_task) StderrLine: {'line': b'    /usr\n'}
+[0.449469] (pcl_task) StderrLine: {'line': b'\n'}
+[0.449489] (pcl_task) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[0.449508] (pcl_task) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.449526] (pcl_task) StderrLine: {'line': b'\x1b[0m\n'}
+[0.462862] (pcl_task) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.500451] (-) TimerEvent: {}
+[0.541095] (pcl_task) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.545878] (pcl_task) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.600556] (-) TimerEvent: {}
+[0.649987] (pcl_task) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[0.700678] (-) TimerEvent: {}
+[0.745822] (pcl_task) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.800872] (-) TimerEvent: {}
+[0.840770] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[0.840884] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[0.840911] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[0.841104] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[0.841297] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[0.841505] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[0.841560] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[0.841678] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[0.841790] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[0.841981] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[0.842255] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[0.842444] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[0.842651] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[0.842777] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[0.842947] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[0.843174] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[0.843337] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[0.843819] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[0.843904] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[0.844029] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[0.844160] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[0.844350] (pcl_task) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[0.844859] (pcl_task) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[0.845002] (pcl_task) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.856256] (pcl_task) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.889432] (pcl_task) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.889638] (pcl_task) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/pcl_task/include\n'}
+[0.889693] (pcl_task) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.889738] (pcl_task) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.889760] (pcl_task) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.889903] (pcl_task) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.890495] (pcl_task) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.890554] (pcl_task) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.890579] (pcl_task) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.891011] (pcl_task) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.901039] (pcl_task) StdoutLine: {'line': b'-- Generating done\n'}
+[0.901096] (-) TimerEvent: {}
+[0.902266] (pcl_task) StdoutLine: {'line': b'-- Build files have been written to: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/build/pcl_task\n'}
+[0.923404] (pcl_task) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PCD_Publisher\x1b[0m\n'}
+[0.940239] (pcl_task) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o\x1b[0m\n'}
+[1.001213] (-) TimerEvent: {}
+[1.101455] (-) TimerEvent: {}
+[1.201686] (-) TimerEvent: {}
+[1.302037] (-) TimerEvent: {}
+[1.402309] (-) TimerEvent: {}
+[1.502579] (-) TimerEvent: {}
+[1.602813] (-) TimerEvent: {}
+[1.703053] (-) TimerEvent: {}
+[1.803279] (-) TimerEvent: {}
+[1.903532] (-) TimerEvent: {}
+[2.003777] (-) TimerEvent: {}
+[2.103988] (-) TimerEvent: {}
+[2.204202] (-) TimerEvent: {}
+[2.304441] (-) TimerEvent: {}
+[2.404676] (-) TimerEvent: {}
+[2.504910] (-) TimerEvent: {}
+[2.605140] (-) TimerEvent: {}
+[2.705382] (-) TimerEvent: {}
+[2.805594] (-) TimerEvent: {}
+[2.905918] (-) TimerEvent: {}
+[3.006284] (-) TimerEvent: {}
+[3.106520] (-) TimerEvent: {}
+[3.206840] (-) TimerEvent: {}
+[3.307157] (-) TimerEvent: {}
+[3.407490] (-) TimerEvent: {}
+[3.507821] (-) TimerEvent: {}
+[3.608146] (-) TimerEvent: {}
+[3.708437] (-) TimerEvent: {}
+[3.808742] (-) TimerEvent: {}
+[3.909076] (-) TimerEvent: {}
+[4.009423] (-) TimerEvent: {}
+[4.109736] (-) TimerEvent: {}
+[4.210036] (-) TimerEvent: {}
+[4.310261] (-) TimerEvent: {}
+[4.410473] (-) TimerEvent: {}
+[4.510722] (-) TimerEvent: {}
+[4.611029] (-) TimerEvent: {}
+[4.688398] (pcl_task) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable PCD_Publisher\x1b[0m\n'}
+[4.711101] (-) TimerEvent: {}
+[4.811366] (-) TimerEvent: {}
+[4.911620] (-) TimerEvent: {}
+[5.011864] (-) TimerEvent: {}
+[5.023154] (pcl_task) StdoutLine: {'line': b'[100%] Built target PCD_Publisher\n'}
+[5.031817] (pcl_task) CommandEnded: {'returncode': 0}
+[5.060938] (pcl_task) JobProgress: {'identifier': 'pcl_task', 'progress': 'install'}
+[5.071438] (pcl_task) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task'], 'cwd': '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'chen'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1888'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=09b0a645e360fff43809972c670b1aee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Enzo:@/tmp/.ICE-unix/1888,unix/Enzo:/tmp/.ICE-unix/1888'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/76d04e67_1008_4a45_9b4c_c67267fdb7ac'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4929016308.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1548'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=09b0a645e360fff43809972c670b1aee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task:/opt/ros/humble')]), 'shell': False}
+[5.080406] (pcl_task) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.080583] (pcl_task) StdoutLine: {'line': b'-- Installing: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/lib/pcl_task/PCD_Publisher\n'}
+[5.081804] (pcl_task) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/lib/pcl_task/PCD_Publisher" to ""\n'}
+[5.081993] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/launch\n'}
+[5.082079] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/launch/PCD_Publisher.launch.py\n'}
+[5.082145] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/ament_index/resource_index/package_run_dependencies/pcl_task\n'}
+[5.082479] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/ament_index/resource_index/parent_prefix_path/pcl_task\n'}
+[5.082568] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/environment/ament_prefix_path.sh\n'}
+[5.082628] (pcl_task) StdoutLine: {'line': b'-- Installing: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/environment/ament_prefix_path.dsv\n'}
+[5.082687] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/environment/path.sh\n'}
+[5.082745] (pcl_task) StdoutLine: {'line': b'-- Installing: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/environment/path.dsv\n'}
+[5.082799] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/local_setup.bash\n'}
+[5.082853] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/local_setup.sh\n'}
+[5.082967] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/local_setup.zsh\n'}
+[5.083107] (pcl_task) StdoutLine: {'line': b'-- Installing: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/local_setup.dsv\n'}
+[5.083314] (pcl_task) StdoutLine: {'line': b'-- Installing: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/package.dsv\n'}
+[5.083458] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/ament_index/resource_index/packages/pcl_task\n'}
+[5.083538] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.083595] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/cmake/pcl_taskConfig.cmake\n'}
+[5.083648] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/cmake/pcl_taskConfig-version.cmake\n'}
+[5.083699] (pcl_task) StdoutLine: {'line': b'-- Up-to-date: /home/chen/\xe5\x8d\x8e\xe5\x8d\x97\xe8\x99\x8e\xe8\xa7\x86\xe8\xa7\x89/\xe8\x80\x83\xe6\xa0\xb8\xe9\xa1\xb9\xe7\x9b\xae/\xe5\xaf\xbc\xe8\x88\xaa\xe9\xa1\xb9\xe7\x9b\xae/\xe6\xb5\x8b\xe8\xaf\x95\xe9\xa1\xb9\xe7\x9b\xae/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/package.xml\n'}
+[5.084804] (pcl_task) CommandEnded: {'returncode': 0}
+[5.111986] (-) TimerEvent: {}
+[5.140532] (pcl_task) JobEnded: {'identifier': 'pcl_task', 'rc': 0}
+[5.141416] (-) EventReactorShutdown: {}

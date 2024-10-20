@@ -1,0 +1,27 @@
+[0.006s] Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task -- -j32 -l32
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target PCD_Publisher[0m
+[0.065s] [ 50%] Built target ros2pcl_test_sub
+[0.074s] [ 75%] [32mBuilding CXX object CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o[0m
+[2.365s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.365s]                  from [01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:1[m[K:
+[2.365s] [01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:[m[K In member function ‘[01m[Kvoid PCD_loading::PCD_publisher()[m[K’:
+[2.366s] [01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:62:69:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’}
+[2.366s]    62 |          RCLCPP_INFO(this->get_logger(), "points_size(%d,%d)",output[01;31m[K->[m[Kheight,output->width);
+[2.366s]       |                                                                     [01;31m[K^~[m[K
+[2.366s] [01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:62:84:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’}
+[2.366s]    62 |          RCLCPP_INFO(this->get_logger(), "points_size(%d,%d)",output->height,output[01;31m[K->[m[Kwidth);
+[2.366s]       |                                                                                    [01;31m[K^~[m[K
+[3.036s] gmake[2]: *** [CMakeFiles/PCD_Publisher.dir/build.make:76：CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o] 错误 1
+[3.036s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/PCD_Publisher.dir/all] 错误 2
+[3.036s] gmake: *** [Makefile:146：all] 错误 2
+[3.038s] Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task -- -j32 -l32

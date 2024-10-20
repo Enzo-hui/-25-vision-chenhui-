@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_car">
+  <xacro:include filename="$(find my_car)/urdf/my_car_de/base_link.urdf.xacro" />
+  <xacro:include filename="$(find my_car)/urdf/my_car_de/sensor/imu.urdf.xacro" />
+  <xacro:include filename="$(find my_car)/urdf/my_car_de/sensor/camera.urdf.xacro" />
+  <xacro:include filename="$(find my_car)/urdf/my_car_de/actutor/wheel.urdf.xacro" />
+  <xacro:include filename="$(find my_car)/urdf/my_car_de/actutor/caster.urdf.xacro" />
+  <xacro:include filename="$(find my_car)/urdf/my_car_de/plugin/gazebo_sensor_plugin.xacro" />
+  <xacro:include filename="$(find my_car)/urdf/my_car_de/plugin/gazebo_control_plugin.xacro" />
+  <xacro:include filename="$(find my_car)/urdf/velodyne_description/urdf/VLP-16.urdf.xacro" />
+
+
+  <xacro:base_link length="0.12" radius="0.1" />
+  <xacro:wheel wheel_name="left_wheel" xyz="-0.04 0.1 0.03" />
+  <xacro:wheel wheel_name="right_wheel" xyz="-0.04 -0.1 0.03" />
+  <xacro:caster radius="0.015" xyz="0.06 0 0.015"/>
+  <xacro:camera xyz="0.12 0 0.04" />
+  <xacro:imu xyz="0 0 0.04" />
+
+  <xacro:gazebo_sensor_plugin/>
+  <xacro:gazebo_control_plugin/>
+  <xacro:VLP-16 />
+
+
+  <!-- <gazebo reference="velodyne_link">
+    <sensor name="velodyne_sensor" type="ray">
+  
+      <xacro:VLP-16 hz="10" />
+      <xacro:VLP-16 lasers="16" />
+      <xacro:VLP-16 samples="1875" />
+      <xacro:VLP-16 min_range="0.9" max_range="130.0" />
+      <xacro:VLP-16 noise="0.008" />
+      <xacro:VLP-16 min_angle="-3.14" max_angle="3.14" />
+      <xacro:VLP-16 gpu="false" />
+      <xacro:VLP-16 topic="/velodyne_points" />
+      <xacro:VLP-16 name="velodyne" />
+    </sensor>
+  </gazebo> -->
+
+</robot>

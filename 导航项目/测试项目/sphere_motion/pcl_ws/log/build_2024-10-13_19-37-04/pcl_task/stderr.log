@@ -1,0 +1,6 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[31mCMake Error at CMakeLists.txt:59 (target_include_directories):
+  target_include_directories called with invalid arguments
+
+[0m
+gmake: *** [Makefile:267：cmake_check_build_system] 错误 1

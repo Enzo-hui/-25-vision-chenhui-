@@ -1,0 +1,8 @@
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:[m[K In member function ‘[01m[Kvoid PCD_loading::PCD_publisher()[m[K’:
+[01m[K/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/src/pcd_loading.cpp:55:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pcl::PassThrough<pcl::PointXYZ>[m[K’ has no member named ‘[01m[KsetOutputCloud[m[K’; did you mean ‘[01m[KsetInputCloud[m[K’?
+   55 |         pass.[01;31m[KsetOutputCloud[m[K(cloud_filtered_2);
+      |              [01;31m[K^~~~~~~~~~~~~~[m[K
+      |              [32m[KsetInputCloud[m[K
+gmake[2]: *** [CMakeFiles/PCD_Publisher.dir/build.make:76：CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/PCD_Publisher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

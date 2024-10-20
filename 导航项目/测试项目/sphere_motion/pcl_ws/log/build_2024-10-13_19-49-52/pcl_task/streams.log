@@ -1,0 +1,34 @@
+[0.007s] Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task -- -j32 -l32
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target PCD_Publisher[0m
+[0.069s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2pcl_test_sub.dir/src/ros2pcl_test_sub.cpp.o[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o[0m
+[3.863s] [ 75%] [32m[1mLinking CXX executable PCD_Publisher[0m
+[4.262s] [ 75%] Built target PCD_Publisher
+[5.485s] [100%] [32m[1mLinking CXX executable ros2pcl_test_sub[0m
+[5.809s] [100%] Built target ros2pcl_test_sub
+[5.818s] Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task -- -j32 -l32
+[5.847s] Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task
+[5.855s] -- Install configuration: ""
+[5.855s] -- Installing: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/lib/pcl_task/PCD_Publisher
+[5.856s] -- Set runtime path of "/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/lib/pcl_task/PCD_Publisher" to ""
+[5.856s] -- Installing: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/lib/pcl_task/ros2pcl_test_sub
+[5.860s] -- Set runtime path of "/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/lib/pcl_task/ros2pcl_test_sub" to ""
+[5.860s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/launch
+[5.860s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/launch/PCD_Publisher.launch.py
+[5.860s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/ament_index/resource_index/package_run_dependencies/pcl_task
+[5.860s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/ament_index/resource_index/parent_prefix_path/pcl_task
+[5.860s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/environment/ament_prefix_path.sh
+[5.860s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/environment/ament_prefix_path.dsv
+[5.860s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/environment/path.sh
+[5.861s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/environment/path.dsv
+[5.861s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/local_setup.bash
+[5.861s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/local_setup.sh
+[5.861s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/local_setup.zsh
+[5.861s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/local_setup.dsv
+[5.861s] -- Installing: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/package.dsv
+[5.861s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/ament_index/resource_index/packages/pcl_task
+[5.861s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.861s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/cmake/pcl_taskConfig.cmake
+[5.861s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/cmake/pcl_taskConfig-version.cmake
+[5.861s] -- Up-to-date: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task/share/pcl_task/package.xml
+[5.863s] Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task

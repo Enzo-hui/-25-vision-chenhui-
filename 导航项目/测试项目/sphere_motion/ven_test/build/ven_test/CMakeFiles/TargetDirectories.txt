@@ -1,0 +1,9 @@
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/ven_test/build/ven_test/CMakeFiles/uninstall.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/ven_test/build/ven_test/CMakeFiles/ven_test_uninstall.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/ven_test/build/ven_test/CMakeFiles/test.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/ven_test/build/ven_test/CMakeFiles/edit_cache.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/ven_test/build/ven_test/CMakeFiles/rebuild_cache.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/ven_test/build/ven_test/CMakeFiles/list_install_components.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/ven_test/build/ven_test/CMakeFiles/install.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/ven_test/build/ven_test/CMakeFiles/install/local.dir
+/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/ven_test/build/ven_test/CMakeFiles/install/strip.dir

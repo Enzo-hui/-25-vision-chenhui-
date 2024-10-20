@@ -1,0 +1,2 @@
+Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/build/my_car': /usr/bin/cmake /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/src/my_car -DCMAKE_INSTALL_PREFIX=/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car
+Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/build/my_car' returned '1': /usr/bin/cmake /home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/src/my_car -DCMAKE_INSTALL_PREFIX=/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/install/my_car

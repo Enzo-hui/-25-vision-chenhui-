@@ -1,0 +1,9 @@
+/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/build/my_car/CMakeFiles/uninstall.dir
+/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/build/my_car/CMakeFiles/my_car_uninstall.dir
+/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/build/my_car/CMakeFiles/test.dir
+/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/build/my_car/CMakeFiles/edit_cache.dir
+/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/build/my_car/CMakeFiles/rebuild_cache.dir
+/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/build/my_car/CMakeFiles/list_install_components.dir
+/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/build/my_car/CMakeFiles/install.dir
+/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/build/my_car/CMakeFiles/install/local.dir
+/home/chen/华南虎视觉/考核项目/导航项目/综合项目/generalization_task_ws/build/my_car/CMakeFiles/install/strip.dir

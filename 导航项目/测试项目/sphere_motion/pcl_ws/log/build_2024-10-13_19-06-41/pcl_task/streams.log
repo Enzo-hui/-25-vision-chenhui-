@@ -1,0 +1,107 @@
+[0.005s] Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task -DCMAKE_INSTALL_PREFIX=/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task
+[0.054s] -- The C compiler identification is GNU 12.3.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.211s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.311s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.316s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.318s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.421s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.474s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.493s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.495s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.498s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.504s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.553s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.555s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.607s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.622s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.644s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.648s] -- Looking for pthread.h
+[0.693s] -- Looking for pthread.h - found
+[0.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.739s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.740s] -- Found Threads: TRUE  
+[0.768s] -- Checking for module 'eigen3'
+[0.777s] --   Found eigen3, version 3.4.0
+[0.800s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.800s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.814s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.865s] -- Checking for module 'libusb-1.0'
+[0.883s] --   Found libusb-1.0, version 1.0.25
+[0.932s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[0.935s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[0.935s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.007s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.007s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.007s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.007s] [0m** WARNING ** io features related to png will be disabled[0m
+[1.035s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.039s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.163s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.164s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.165s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.169s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.178s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.183s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.236s] -- Found X11: /usr/include   
+[1.236s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.286s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.286s] -- Looking for gethostbyname
+[1.335s] -- Looking for gethostbyname - found
+[1.335s] -- Looking for connect
+[1.378s] -- Looking for connect - found
+[1.378s] -- Looking for remove
+[1.426s] -- Looking for remove - found
+[1.427s] -- Looking for shmat
+[1.476s] -- Looking for shmat - found
+[1.476s] -- Looking for IceConnectionNumber in ICE
+[1.559s] -- Looking for IceConnectionNumber in ICE - found
+[1.650s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.653s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.655s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.657s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.668s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.671s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.673s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.676s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.694s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.694s] -- looking for PCL_COMMON
+[1.695s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.695s] -- looking for PCL_OCTREE
+[1.695s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.695s] -- looking for PCL_IO
+[1.696s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.696s] -- Found PCL: pcl_common;pcl_octree;pcl_io;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt  
+[1.697s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.715s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.753s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.753s] -- Configured cppcheck include dirs: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task/include
+[1.753s] -- Configured cppcheck exclude dirs and/or files: 
+[1.753s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.753s] -- Added test 'lint_cmake' to check CMake code style
+[1.754s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.754s] -- Added test 'uncrustify' to check C / C++ code style
+[1.754s] -- Configured uncrustify additional arguments: 
+[1.754s] -- Added test 'xmllint' to check XML markup files
+[1.755s] -- Configuring done
+[1.763s] -- Generating done
+[1.764s] -- Build files have been written to: /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task
+[1.773s] Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/pcl_task -DCMAKE_INSTALL_PREFIX=/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/install/pcl_task
+[1.773s] Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task -- -j32 -l32
+[1.821s] [ 50%] [32mBuilding CXX object CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o[0m
+[5.370s] [100%] [32m[1mLinking CXX executable PCD_Publisher[0m
+[5.550s] /usr/bin/ld: CMakeFiles/PCD_Publisher.dir/src/pcd_loading.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x48): undefined reference to `pcl::VoxelGrid<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+[5.560s] collect2: error: ld returned 1 exit status
+[5.561s] gmake[2]: *** [CMakeFiles/PCD_Publisher.dir/build.make:233：PCD_Publisher] 错误 1
+[5.561s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/PCD_Publisher.dir/all] 错误 2
+[5.562s] gmake: *** [Makefile:146：all] 错误 2
+[5.564s] Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/测试项目/sphere_motion/pcl_ws/build/pcl_task -- -j32 -l32

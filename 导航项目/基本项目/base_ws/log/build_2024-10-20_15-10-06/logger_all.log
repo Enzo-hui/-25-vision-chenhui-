@@ -1,0 +1,365 @@
+[0.042s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.042s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70a7909208b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70a790920460>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70a790920460>>)
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.107s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_car) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_car) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_car) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_car) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_car) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_car) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_car) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_car) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_car) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_car' with type 'ros.ament_cmake' and name 'my_car'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'ros'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extensions ['cmake', 'python']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'cmake'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'python'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extensions ['python_setup_py']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator) by extension 'python_setup_py'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'ros'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extensions ['cmake', 'python']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'cmake'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'python'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extensions ['python_setup_py']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/img) by extension 'python_setup_py'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_description) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne_simulator/velodyne_description' with type 'ros.ament_cmake' and name 'velodyne_description'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne_simulator/velodyne_gazebo_plugins' with type 'ros.ament_cmake' and name 'velodyne_gazebo_plugins'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/velodyne_simulator/velodyne_simulator) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velodyne_simulator/velodyne_simulator' with type 'ros.ament_cmake' and name 'velodyne_simulator'
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.127s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install
+[0.128s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 342 installed packages in /opt/ros/humble
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'my_car' build argument 'cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'my_car' build argument 'cmake_target' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'my_car' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'my_car' build argument 'cmake_clean_cache' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'my_car' build argument 'cmake_clean_first' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'my_car' build argument 'cmake_force_configure' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'my_car' build argument 'ament_cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'my_car' build argument 'catkin_cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'my_car' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.150s] DEBUG:colcon.colcon_core.verb:Building package 'my_car' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/my_car', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car', 'merge_install': False, 'path': '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/src/my_car', 'symlink_install': False, 'test_result_base': None}
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_target' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.150s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description', 'merge_install': False, 'path': '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/src/velodyne_simulator/velodyne_description', 'symlink_install': False, 'test_result_base': None}
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.150s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins', 'merge_install': False, 'path': '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/src/velodyne_simulator/velodyne_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_target' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.150s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator', 'merge_install': False, 'path': '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/src/velodyne_simulator/velodyne_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.150s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.151s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.151s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/src/velodyne_simulator/velodyne_description' with build type 'ament_cmake'
+[0.151s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/src/velodyne_simulator/velodyne_description'
+[0.152s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.152s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.152s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.154s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/src/velodyne_simulator/velodyne_gazebo_plugins' with build type 'ament_cmake'
+[0.154s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/src/velodyne_simulator/velodyne_gazebo_plugins'
+[0.155s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.155s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.156s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/src/my_car' with build type 'ament_cmake'
+[0.156s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/src/my_car'
+[0.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_description -- -j32 -l32
+[0.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_gazebo_plugins -- -j32 -l32
+[0.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/my_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/my_car -- -j32 -l32
+[0.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_description -- -j32 -l32
+[0.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_description
+[0.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/my_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/my_car -- -j32 -l32
+[0.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_description)
+[0.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_description
+[0.214s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description' for CMake module files
+[0.214s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description' for CMake config files
+[0.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_description', 'cmake_prefix_path')
+[0.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.ps1'
+[0.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.dsv'
+[0.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.sh'
+[0.215s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/bin'
+[0.215s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/lib/pkgconfig/velodyne_description.pc'
+[0.215s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/lib/python3.10/site-packages'
+[0.216s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/bin'
+[0.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/package.ps1'
+[0.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/package.dsv'
+[0.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/package.sh'
+[0.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/package.bash'
+[0.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/package.zsh'
+[0.217s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/colcon-core/packages/velodyne_description)
+[0.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_gazebo_plugins -- -j32 -l32
+[0.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/my_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/my_car
+[0.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_description)
+[0.231s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description' for CMake module files
+[0.231s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description' for CMake config files
+[0.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_description', 'cmake_prefix_path')
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.ps1'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.dsv'
+[0.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.sh'
+[0.232s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/bin'
+[0.232s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/lib/pkgconfig/velodyne_description.pc'
+[0.232s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/lib/python3.10/site-packages'
+[0.232s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/bin'
+[0.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/package.ps1'
+[0.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/package.dsv'
+[0.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/package.sh'
+[0.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/package.bash'
+[0.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/velodyne_description/package.zsh'
+[0.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description/share/colcon-core/packages/velodyne_description)
+[0.233s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_car)
+[0.233s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car' for CMake module files
+[0.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/my_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/my_car
+[0.234s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car' for CMake config files
+[0.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_car', 'cmake_prefix_path')
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/hook/cmake_prefix_path.ps1'
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/hook/cmake_prefix_path.dsv'
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/hook/cmake_prefix_path.sh'
+[0.235s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/lib'
+[0.235s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/bin'
+[0.235s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/lib/pkgconfig/my_car.pc'
+[0.235s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/lib/python3.10/site-packages'
+[0.235s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/bin'
+[0.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/package.ps1'
+[0.236s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/package.dsv'
+[0.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/package.sh'
+[0.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/package.bash'
+[0.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/package.zsh'
+[0.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/colcon-core/packages/my_car)
+[0.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_gazebo_plugins
+[0.243s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_gazebo_plugins)
+[0.243s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins' for CMake module files
+[0.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_gazebo_plugins
+[0.243s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins' for CMake config files
+[0.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'cmake_prefix_path')
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.sh'
+[0.244s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/lib'
+[0.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'ld_library_path_lib')
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[0.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.sh'
+[0.245s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/bin'
+[0.245s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/lib/pkgconfig/velodyne_gazebo_plugins.pc'
+[0.245s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/lib/python3.10/site-packages'
+[0.245s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/bin'
+[0.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.ps1'
+[0.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv'
+[0.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.sh'
+[0.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.bash'
+[0.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.zsh'
+[0.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/colcon-core/packages/velodyne_gazebo_plugins)
+[0.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_car)
+[0.254s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car' for CMake module files
+[0.255s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car' for CMake config files
+[0.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_car', 'cmake_prefix_path')
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/hook/cmake_prefix_path.ps1'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/hook/cmake_prefix_path.dsv'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/hook/cmake_prefix_path.sh'
+[0.255s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/lib'
+[0.255s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/bin'
+[0.255s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/lib/pkgconfig/my_car.pc'
+[0.256s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/lib/python3.10/site-packages'
+[0.256s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/bin'
+[0.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/package.ps1'
+[0.256s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/package.dsv'
+[0.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/package.sh'
+[0.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/package.bash'
+[0.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/my_car/package.zsh'
+[0.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car/share/colcon-core/packages/my_car)
+[0.264s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_gazebo_plugins)
+[0.264s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins' for CMake module files
+[0.264s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins' for CMake config files
+[0.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'cmake_prefix_path')
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.sh'
+[0.265s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/lib'
+[0.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'ld_library_path_lib')
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.sh'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/bin'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/lib/pkgconfig/velodyne_gazebo_plugins.pc'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/lib/python3.10/site-packages'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/bin'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.ps1'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.sh'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.bash'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.zsh'
+[0.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins/share/colcon-core/packages/velodyne_gazebo_plugins)
+[0.268s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/src/velodyne_simulator/velodyne_simulator' with build type 'ament_cmake'
+[0.268s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/src/velodyne_simulator/velodyne_simulator'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_simulator': CMAKE_PREFIX_PATH=/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins:/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description:/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator:/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_simulator -- -j32 -l32
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_simulator' returned '0': CMAKE_PREFIX_PATH=/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins:/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description:/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator:/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car:/opt/ros/humble /usr/bin/cmake --build /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_simulator -- -j32 -l32
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_simulator': CMAKE_PREFIX_PATH=/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins:/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description:/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator:/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car:/opt/ros/humble /usr/bin/cmake --install /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_simulator
+[0.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_simulator)
+[0.358s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator' for CMake module files
+[0.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_simulator' returned '0': CMAKE_PREFIX_PATH=/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_gazebo_plugins:/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_description:/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator:/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/my_car:/opt/ros/humble /usr/bin/cmake --install /home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/build/velodyne_simulator
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator' for CMake config files
+[0.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_simulator', 'cmake_prefix_path')
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.dsv'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.sh'
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/bin'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/lib/pkgconfig/velodyne_simulator.pc'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/lib/python3.10/site-packages'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/bin'
+[0.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/package.ps1'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/package.dsv'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/package.sh'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/package.bash'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/package.zsh'
+[0.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/colcon-core/packages/velodyne_simulator)
+[0.394s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_simulator)
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator' for CMake module files
+[0.395s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator' for CMake config files
+[0.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_simulator', 'cmake_prefix_path')
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.ps1'
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.dsv'
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.sh'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/bin'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/lib/pkgconfig/velodyne_simulator.pc'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/lib/python3.10/site-packages'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/bin'
+[0.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/package.ps1'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/package.dsv'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/package.sh'
+[0.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/package.bash'
+[0.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/velodyne_simulator/package.zsh'
+[0.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/velodyne_simulator/share/colcon-core/packages/velodyne_simulator)
+[0.399s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.400s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.406s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.406s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.406s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.415s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.415s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/local_setup.ps1'
+[0.416s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/_local_setup_util_ps1.py'
+[0.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/setup.ps1'
+[0.418s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/local_setup.sh'
+[0.418s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/_local_setup_util_sh.py'
+[0.419s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/setup.sh'
+[0.419s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/local_setup.bash'
+[0.420s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/setup.bash'
+[0.420s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/local_setup.zsh'
+[0.421s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/华南虎视觉/考核项目/导航项目/基本项目/base_ws/install/setup.zsh'
